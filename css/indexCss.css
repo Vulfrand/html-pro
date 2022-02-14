@@ -20,11 +20,6 @@ body{
 #general{
   margin-top: 200px;
 }
-/*p, li, ol, ul{
-  background-image: url(../images/trans.png);
-  color: yellow;
-  font-family: 'PressStart2P-Regular';
-}*/
 .text{
   color: yellow;
   font-family: Trebuchet ms;
