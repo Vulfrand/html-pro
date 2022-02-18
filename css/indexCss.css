@@ -104,6 +104,7 @@ body{
   to {color: yellow;}
   from {letter-spacing: 10px;}
   to {letter-spacing: normal;}
+  
 }
 .lie_Top{
   animation-name: reverse;
