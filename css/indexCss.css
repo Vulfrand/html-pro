@@ -68,15 +68,54 @@ body{
 }
 #middle{
   float: left;
-  width: 150px;
-  margin-top: 48px;
-  margin-left: 50px;
   border: 1px solid white;
   border-radius: 15px;
+  margin-top: 48px;
+  margin-left: 50px;
+  padding-right: 20px;
   background-color: #0d2a52;
 }
-#modl{
-  font-size: 273%;
+
+#download{
+  float: left;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-top: 48px;
+  margin-left: 50px;
+  padding-right: 20px;
+  background-color: #0d2a52;
+  color: yellow;
+}
+#download p{
+  text-align: center;
+  margin: 0px;
+}
+#download ul{
+  margin-top: 0px
+}
+@keyframes down{
+  from {color: yellow;}
+  to {color: red;}
+  from {letter-spacing: normal;}
+  to {letter-spacing: 10px;}
+}
+@keyframes reverse{
+  from {color: red;}
+  to {color: yellow;}
+  from {letter-spacing: 10px;}
+  to {letter-spacing: normal;}
+}
+.lie_Top{
+  animation-name: reverse;
+  animation-duration: 2s;
+  letter-spacing: normal;
+  color: yellow;
+}
+.lie_Top:hover{
+  animation-name: down;
+  animation-duration: 1s;
+  letter-spacing: 10px;
+  color: red;
 }
 #last{
   background-color: black;
