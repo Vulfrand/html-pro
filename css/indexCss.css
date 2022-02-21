@@ -5,9 +5,11 @@ body{
   padding: 0px;
   color: yellow;
   margin: 0px;
+  font-family: Trebuchet MS;
+
 }
 #topLayer{
-  background-color: black;
+  background-color: #105e4bed;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -16,6 +18,8 @@ body{
 }
 #general{
   margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .text{
   color: yellow;
@@ -47,7 +51,6 @@ body{
 #aboutSUS{
   color: #0d2a52;
   background-color: #0d2a52;
-
 }
 #aboutSUS:hover{
   background-color: #6cdef9;
@@ -101,7 +104,6 @@ body{
   to {color: yellow;}
   from {letter-spacing: 10px;}
   to {letter-spacing: normal;}
-
 }
 .lie_Top{
   animation-name: reverse;
@@ -115,9 +117,21 @@ body{
   letter-spacing: 10px;
   color: red;
 }
-#last{
-  background-color: black;
-  margin-bottom: -16px;
-  margin-left: 0px;
-  margin-right: 0px;
+.lienBody{
+  color: red;
+}
+@keyframes animR{
+  from {left: 0%;}
+  to {left: 100%;}
+}
+#ANIMRight{
+  position: fixed;
+  background-color: #f4ba2ed6;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  animation-name: animR;
+  animation-duration: 5s;
+  animation-timing-function: ease;
 }
